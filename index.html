@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Básica</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tienda Online</h1>
+    </header>
+
+    <main>
+      <section id="productos">
+        <!-- Los productos se cargarán aquí -->
+      </section>
+
+      <section id="agregar-producto">
+        <h2>Agregar Producto</h2>
+        <form id="producto-form">
+          <input type="text" id="nombre" placeholder="Nombre del producto" required />
+          <input type="number" id="precio" placeholder="Precio del producto" required />
+          <button type="submit">Agregar Producto</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
